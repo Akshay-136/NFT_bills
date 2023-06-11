@@ -1,0 +1,119 @@
+.mintedNft_main{
+    width: 100%;
+    margin: auto;
+    /* box-shadow: 0 0 10px 5px rgba(111, 111, 111, 0.2); */
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: row;
+    padding: 20px 40px;
+    margin-top: 2%;
+}
+
+.warranty_card_ui{
+    flex-basis: 40%;
+}
+.product_details{
+    flex-basis: 65%;
+    box-shadow: 0 0 10px 5px rgba(111, 111, 111, 0.2);
+    padding: 2%;
+}
+.listNFT{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border: 1px solid red;
+    margin: 5% auto;
+    position: relative;
+
+}
+.listNFT_box{
+    /* margin: 10px 0; */
+    min-height: 80vh;
+    display: flex;
+    padding: 2%;
+
+}
+.listing_image{
+    flex-basis: 40%;
+    width: 100%;
+    border: 1px solid red;
+    height: auto;
+    
+}
+.listing_details{
+    flex-basis: 57%;
+    width: 100%;
+    border: 1px solid red;
+    height: auto;
+
+    margin-left: 3%;
+}
+.listNFT_close_btn{
+    position: absolute;
+    right: 10px;
+}
+@media screen and (max-width: 900px) {
+    .listing_image{
+        flex-basis: 40%;
+        width: 100%;
+        border: 1px solid red;
+        height: auto;
+        
+    }
+    .listing_details{
+        flex-basis: 60%;
+        width: 100%;
+        border: 1px solid red;
+        height: auto;
+        margin-left: 10px;
+    }
+    .listNFT_box{
+        flex-direction: row;
+        min-height: 70vh;
+        padding: 1%;
+
+    }
+}
+@media screen and (max-width: 600px) {
+    .listing_image{
+        flex-basis: 40%;
+        width: 100%;
+        border: 1px solid red;
+        height: auto;
+        
+    }
+    .listing_details{
+        flex-basis: 60%;
+        width: 100%;
+        border: 1px solid red;
+        height: auto;
+        margin-left: 10px;
+    }
+    .listNFT_box{
+        flex-direction: row;
+        
+
+    }
+}
+@media screen and (max-width: 500px) {
+    .listing_image{
+        flex-basis: 100%;
+        width: 100%;
+        border: 1px solid red;
+        min-height: 60vh;
+        
+    }
+    .listing_details{
+        flex-basis: 100%;
+        width: 100%;
+        border: 1px solid red;
+        min-height: 60vh;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .listNFT_box{
+        flex-direction: column;
+    
+
+    }
+}
